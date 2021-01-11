@@ -38,7 +38,7 @@ if(isset($_POST['update'])){
         <label for="pagecontent">Page Content</label>
         <textarea class="form-control" name="pagecontent"><?php echo $row['page_conent']; ?></textarea>
     </div>
-    <button type="submit" class="btn btn-primary" name="update">update</button>
+    <button type="submit" class="btn btn-primary" name="update">updates</button>
 </form>
 
 
