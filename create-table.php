@@ -11,7 +11,7 @@ $pages = "CREATE TABLE IF NOT EXISTS pages(
 if(mysqli_query($connect, $pages)){
     echo "Database Table Created";
 } else {
-    echo "There is an error";
+    echo "There is an error ";
 }
 
 ?>

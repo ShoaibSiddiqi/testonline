@@ -19,7 +19,7 @@ if(mysqli_query($connect, $insert)){
 
 ?>
         
-        <h1>Welcome back to create new page</h1>
+        <h1>Welcome back to create new pages</h1>
 
         <form method="post">
             <div class="form-group">

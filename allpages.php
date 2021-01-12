@@ -15,7 +15,7 @@ $result = mysqli_query($connect, $allpages);
             <td>Page ID</td>
             <td>Page Title</td>
             <td>Page Content</td>
-            <td>Action</td>
+            <td>Actions</td>
         </tr>
     </thead>
     <tbody>
