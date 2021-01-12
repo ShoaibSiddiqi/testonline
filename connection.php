@@ -9,7 +9,7 @@ $db_host = "localhost";
 
 $connect = new mysqli($db_host, $db_user, $db_pass, $db_name);
 
-// check connection
+// check connectionn
 
 if($connect->connect_error){
     echo "connection error";

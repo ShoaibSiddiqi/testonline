@@ -32,14 +32,14 @@ $result = mysqli_query($connect, $allpages);
             <td><?php echo $row["page_conent"] ; ?></td>
             <td>
                 <a href="edit.php?page_id=<?php echo $row["page_id"] ; ?>" class="btn btn-primary">Edit</a>
-                <a href="delete.php?page_id=<?php echo $row["page_id"] ; ?>" class="btn btn-danger">Delete</a>
-                <a href="view.php?page_id=<?php echo $row["page_id"] ; ?>" class="btn btn-secondary">View</a>
+                <a href="delete.php?page_id=<?php echo $row["page_id"] ; ?>" class="btn btn-danger">Deletes</a>
+                <a href="view.php?page_id=<?php echo $row["page_id"] ; ?>" class="btn btn-secondary">Views</a>
             </td> 
         </tr>
     <?php 
             }
     } else {
-        echo "error";
+        echo "error accour";
     } ?>
     </tbody>
 </table>

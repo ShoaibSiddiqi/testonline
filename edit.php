@@ -1,4 +1,5 @@
 <?php
+// include header and connection files
 include 'views/header.php';
 
 include 'connection.php';
