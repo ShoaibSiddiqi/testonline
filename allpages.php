@@ -27,6 +27,7 @@ $result = mysqli_query($connect, $allpages);
         
     ?>
         <tr>
+    
             <td><?php echo $row["page_id"] ; ?></td>
             <td><?php echo $row["page_title"] ; ?></td>
             <td><?php echo $row["page_conent"] ; ?></td>

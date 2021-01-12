@@ -5,12 +5,14 @@ include 'views/header.php';
 include 'connection.php';
 
 $id = $_REQUEST['page_id'];
+//sql query slect data from table
 
 $edit = "SELECT * FROM pages WHERE page_id=$id";
 
 $result = mysqli_query($connect, $edit);
 
 $row = mysqli_fetch_assoc($result);
+//update data sql query
 
 if(isset($_POST['update'])){
 

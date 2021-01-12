@@ -6,7 +6,7 @@ include 'connection.php';
 
 $pagetitle = $_POST['pagetitle'];
 $pagecontent = $_POST['pagecontent'];
-
+//insert data in pages
 $insert = "INSERT INTO pages(
     page_title, page_conent)
     VALUES('$pagetitle', '$pagecontent')";
