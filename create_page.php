@@ -19,11 +19,11 @@ if(mysqli_query($connect, $insert)){
 
 ?>
         
-        <h1>Welcome back to create new pages</h1>
+        <h1>Welcome back to create new page</h1>
 
         <form method="post">
             <div class="form-group">
-                <label for="pagetitle">Page Title</label>
+                <label for="pagetitle">Page Titles</label>
                 <input type="text" class="form-control" name="pagetitle" id="pagetitle">
             </div>
             <div class="form-group">
